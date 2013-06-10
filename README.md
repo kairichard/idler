@@ -8,6 +8,7 @@ The program itself just prints to stdout the time that the computer has
 been idle in seconds.
 
 Compile with:
+
     gcc -Wall -framework IOKit -framework Carbon idler.c -o idler
 
 ----------------------
