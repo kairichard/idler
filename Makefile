@@ -9,7 +9,7 @@ $(EXECUTABLE):
 	$(CC) $(CFLAGS) $(SOURCES) -o $(EXECUTABLE)
 
 install:
-	mv $(EXECUTABLE) $(INSTALL_DIR)
+	mv -i $(EXECUTABLE) $(INSTALL_DIR)
 	chmod +x $(INSTALL_DIR)$(EXECUTABLE)
 
 clean:
